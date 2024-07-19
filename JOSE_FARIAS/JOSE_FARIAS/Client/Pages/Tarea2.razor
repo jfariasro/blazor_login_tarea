@@ -1,0 +1,50 @@
+﻿@page "/tarea2"
+@using JOSE_FARIAS.Client.Services.Contracts
+@using JOSE_FARIAS.Shared
+
+@inject ITareaService tareaService;
+
+<PageTitle>Tareas Completas</PageTitle>
+
+<h3>Tareas Completas</h3>
+
+<div class="content">
+
+    <hr />
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in listaTarea)
+            {
+                <tr>
+                    <td>@item.Titulo</td>
+                    <td>@item.Descripcion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+@code {
+    List<TareaDTO> listaTarea = new List<TareaDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarListaTareas();
+    }
+
+    private async Task CargarListaTareas()
+    {
+        listaTarea = new List<TareaDTO>();
+        listaTarea = await tareaService.ListarCompletas();
+    }
+
+    
+}

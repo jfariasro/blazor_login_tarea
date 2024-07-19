@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17D89566-DB53-4946-919F-8A9D0964EB52}|JOSE_FARIAS\\Server\\JOSE_FARIAS.Server.csproj|c:\\repos\\jose_farias\\jose_farias\\jose_farias\\server\\controllers\\tareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D89566-DB53-4946-919F-8A9D0964EB52}|JOSE_FARIAS\\Server\\JOSE_FARIAS.Server.csproj|solutionrelative:jose_farias\\server\\controllers\\tareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325040A1-1201-406C-8291-96607778A67B}|JOSE_FARIAS\\Client\\JOSE_FARIAS.Client.csproj|c:\\repos\\jose_farias\\jose_farias\\jose_farias\\client\\pages\\tarea2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{325040A1-1201-406C-8291-96607778A67B}|JOSE_FARIAS\\Client\\JOSE_FARIAS.Client.csproj|solutionrelative:jose_farias\\client\\pages\\tarea2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325040A1-1201-406C-8291-96607778A67B}|JOSE_FARIAS\\Client\\JOSE_FARIAS.Client.csproj|c:\\repos\\jose_farias\\jose_farias\\jose_farias\\client\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{325040A1-1201-406C-8291-96607778A67B}|JOSE_FARIAS\\Client\\JOSE_FARIAS.Client.csproj|solutionrelative:jose_farias\\client\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325040A1-1201-406C-8291-96607778A67B}|JOSE_FARIAS\\Client\\JOSE_FARIAS.Client.csproj|c:\\repos\\jose_farias\\jose_farias\\jose_farias\\client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{325040A1-1201-406C-8291-96607778A67B}|JOSE_FARIAS\\Client\\JOSE_FARIAS.Client.csproj|solutionrelative:jose_farias\\client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325040A1-1201-406C-8291-96607778A67B}|JOSE_FARIAS\\Client\\JOSE_FARIAS.Client.csproj|c:\\repos\\jose_farias\\jose_farias\\jose_farias\\client\\shared\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{325040A1-1201-406C-8291-96607778A67B}|JOSE_FARIAS\\Client\\JOSE_FARIAS.Client.csproj|solutionrelative:jose_farias\\client\\shared\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TareaController.cs",
+              "DocumentMoniker": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Server\\Controllers\\TareaController.cs",
+              "RelativeDocumentMoniker": "JOSE_FARIAS\\Server\\Controllers\\TareaController.cs",
+              "ToolTip": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Server\\Controllers\\TareaController.cs",
+              "RelativeToolTip": "JOSE_FARIAS\\Server\\Controllers\\TareaController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAwwKAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T16:02:53.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Client\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "JOSE_FARIAS\\Client\\Pages\\Login.razor",
+              "ToolTip": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Client\\Pages\\Login.razor",
+              "RelativeToolTip": "JOSE_FARIAS\\Client\\Pages\\Login.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T16:00:28.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginLayout.razor",
+              "DocumentMoniker": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Client\\Shared\\LoginLayout.razor",
+              "RelativeDocumentMoniker": "JOSE_FARIAS\\Client\\Shared\\LoginLayout.razor",
+              "ToolTip": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Client\\Shared\\LoginLayout.razor",
+              "RelativeToolTip": "JOSE_FARIAS\\Client\\Shared\\LoginLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T16:00:24.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Client\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "JOSE_FARIAS\\Client\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Client\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "JOSE_FARIAS\\Client\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T15:59:30.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tarea2.razor",
+              "DocumentMoniker": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Client\\Pages\\Tarea2.razor",
+              "RelativeDocumentMoniker": "JOSE_FARIAS\\Client\\Pages\\Tarea2.razor",
+              "ToolTip": "C:\\repos\\JOSE_FARIAS\\JOSE_FARIAS\\JOSE_FARIAS\\Client\\Pages\\Tarea2.razor",
+              "RelativeToolTip": "JOSE_FARIAS\\Client\\Pages\\Tarea2.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T15:57:53.8Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

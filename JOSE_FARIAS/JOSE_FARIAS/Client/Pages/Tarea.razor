@@ -1,0 +1,151 @@
+﻿@page "/tarea"
+@using JOSE_FARIAS.Client.Services.Contracts
+@using JOSE_FARIAS.Shared
+
+@inject ITareaService tareaService;
+
+<PageTitle>Tareas Incompletas</PageTitle>
+
+<h3>Tareas Incompletas</h3>
+
+<div class="content">
+    <div class="container">
+
+        <input type="hidden" name="name" value="@idtarea" />
+
+        <div class="mb-2">
+            <label for="titulo">Título:</label>
+            <InputText class="form-control" id="titulo" @bind-Value="titulo" required></InputText>
+        </div>
+
+        <div class="mb-2">
+            <label for="descripcion">Descripción:</label>
+            <InputTextArea class="form-control" id="descripcion" @bind-Value="descripcion" required></InputTextArea>
+        </div>
+
+        <button class="btn btn-primary" @onclick="GuardarTarea">Guardar</button>
+
+    </div>
+
+    <hr />
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in listaTarea)
+            {
+                <tr>
+                    <td>@item.Titulo</td>
+                    <td>@item.Descripcion</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning"
+                                @onclick="@(() => EditarTarea(item.Idtarea))">
+                            <span class="oi oi-pencil"></span>
+                        </button>
+                        <button class="btn btn-sm btn-danger"
+                                @onclick="@(() => EliminarTarea(item.Idtarea))">
+                            <span class="oi oi-trash"></span>
+                        </button>
+                        <button class="btn btn-sm btn-success"
+                                @onclick="@(() => CompletarTarea(item.Idtarea))">
+                            <span class="oi oi-check"></span>
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+@code {
+    List<TareaDTO> listaTarea = new List<TareaDTO>();
+    int idtarea = 0;
+    string titulo = "";
+    string descripcion = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarListaTareas();
+    }
+
+    private async Task CargarListaTareas()
+    {
+        listaTarea = new List<TareaDTO>();
+        listaTarea = await tareaService.ListarIncompleta();
+    }
+
+    private async void GuardarTarea()
+    {
+        bool result = false;
+
+        if (this.titulo == "" || this.descripcion == "")
+            return;
+
+        var tareaDTO = new TareaDTO()
+            {
+                Idtarea = this.idtarea,
+                Titulo = this.titulo,
+                Descripcion = this.descripcion
+            };
+
+        if (this.idtarea == 0)
+        {
+            result = await this.tareaService.Registrar(tareaDTO);
+        }
+        else
+        {
+            result = await this.tareaService.Editar(this.idtarea, tareaDTO);
+        }
+
+        if (result)
+        {
+            this.idtarea = 0;
+            this.titulo = "";
+            this.descripcion = "";
+
+            await CargarListaTareas();
+            StateHasChanged();
+        }
+    }
+
+    private void EditarTarea(int id)
+    {
+        var tarea = listaTarea.First(c => c.Idtarea == id);
+
+        this.idtarea = id;
+        this.titulo = tarea.Titulo!;
+        this.descripcion = tarea.Descripcion!;
+    }
+
+    private async void EliminarTarea(int id)
+    {
+        var result = await this.tareaService.Eliminar(id);
+
+        if (result)
+        {
+
+            await CargarListaTareas();
+            StateHasChanged();
+        }
+    }
+
+    private async void CompletarTarea(int id)
+    {
+        var tareaDTO = listaTarea.First(c => c.Idtarea == id);
+        var result = await this.tareaService.Completar(id, tareaDTO);
+
+        if (result)
+        {
+
+            await CargarListaTareas();
+            StateHasChanged();
+        }
+    }
+}

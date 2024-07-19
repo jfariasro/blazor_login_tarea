@@ -1,0 +1,11 @@
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\bin\Debug\net7.0\JOSE_FARIAS.Shared.deps.json
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\bin\Debug\net7.0\JOSE_FARIAS.Shared.dll
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\bin\Debug\net7.0\JOSE_FARIAS.Shared.pdb
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\obj\Debug\net7.0\JOSE_FARIAS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\obj\Debug\net7.0\JOSE_FARIAS.Shared.AssemblyInfoInputs.cache
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\obj\Debug\net7.0\JOSE_FARIAS.Shared.AssemblyInfo.cs
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\obj\Debug\net7.0\JOSE_FARIAS.Shared.csproj.CoreCompileInputs.cache
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\obj\Debug\net7.0\JOSE_FARIAS.Shared.dll
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\obj\Debug\net7.0\refint\JOSE_FARIAS.Shared.dll
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\obj\Debug\net7.0\JOSE_FARIAS.Shared.pdb
+C:\repos\JOSE_FARIAS\JOSE_FARIAS\JOSE_FARIAS\Shared\obj\Debug\net7.0\ref\JOSE_FARIAS.Shared.dll
